@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <section id="contact">
+  <div class="sectionheader">
+    <h1>CONTACT</h1>
+  </div>
+  <article>
+    <p><center>Vous avez une question ?</center></p> 
+    <p><center>N'hésitez pas à nous contacter via ce formulaire de contact en appuyant sur le bouton ci-dessous :</center></p>
+
+    <label for="checkcontact" class="contactbutton">
+      <div class="mail"></div>
+    </label><input id="checkcontact" type="checkbox">
+
+    <form action="https://formsubmit.co/laurentwu123@gmail.com"  method="post" class="contactform">
+      <p class="input_wrapper"><input type="text" name="contact_nom" value="" id="contact_nom"><label for="contact_nom">NOM</label></p>
+      <p class="input_wrapper"><input type="text" name="contact_email" value="" id="contact_email"><label for="contact_email">EMAIL</label></p>
+      <p class="input_wrapper"><input type="text" name="contact_sujet" value="" id="contact_sujet"><label for="contact_sujet">OBJET</label></p>
+      <p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+      <p class="submit_wrapper"><input type="submit" value="ENVOYER"></p>
+      <input type="hidden" name="_next" value="https://storymaps.arcgis.com/stories/1ae56af6309e46b8a314d6b6cb2a7994/preview">
+    </form>
+  </article>
+</section>
+</body>
+</html>
